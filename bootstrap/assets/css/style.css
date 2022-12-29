@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: roboto;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: rgb(21, 123, 6);
+    text-align: right;
+    color: #fff;
+  
+}
+.collapse ul li a {
+    color: #fff;
+}
+.spacer {
+    flex: 1 1 auto;
+}
+.correo {
+    text-align: center;
+    background-color: rgb(21, 123, 6);
+    color: aliceblue;
+}
+.title {
+    padding-top: 2rem;
+    font-size: medium;
+}
+footer {
+    text-align: center;
+
+}
+footer img{
+    height: 20px;
+}
+h2 {
+    font-size: medium;
+}
+
+a{
+    font-size: small;
+}
+
+a.card-link{
+    font-size: larger;
+    right: 20%;
+    color: rgb(21, 123, 6);
+}

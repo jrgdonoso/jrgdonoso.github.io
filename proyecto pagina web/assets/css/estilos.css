@@ -1,0 +1,58 @@
+h1 {
+ 
+    color: darkslateblue;
+    font-size: 50px;
+    font-style: italic;
+   
+}
+p {
+    font-size: 20px;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+* {
+    margin:10;
+    padding: 20;
+    background-color: rgb(172, 174, 178);
+}
+.menu li a {
+    margin: 10px;
+    color: deeppink;
+}
+.menu li a:hover {
+    margin: 10px;
+    background-color: black;
+    color: deeppink;
+}
+.spacer {
+    flex: 1 1 auto;
+}
+.container{
+    border: 5px solid black;
+    margin: 20px;
+    padding: 30px;
+   background-position: center;
+    background-image: url(../css/img/foto5.jpeg)
+    
+}
+.pie {
+    border: 10px;
+    background-color: darksalmon;
+}
+section figure img {
+      width: 200px;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+
+section p {
+    padding: 100px;
+}
